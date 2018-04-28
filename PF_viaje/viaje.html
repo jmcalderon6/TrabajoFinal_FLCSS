@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Blog de Turismo</title>
+  </head>
+  <body>
+   <nav>
+      <div class="nav-wrapper">
+<!--     <a href="#" class="brand-logo">Logo</a> -->
+      <img src="img/reiki1.jpg" style="width:50px;height:50px;" class="circle responsive-img">
+     
+        
+      <ul id="nav-mobile" class="right" <!-- hide-on-med-and-down"-->
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+	  </div>
+  </nav>
+  <h5> Eslogan : Creando mi propio camino</h5>
+  
+  <div class="row">
+  <div class="col m1 responsive-img">
+  <ul>
+          <a href="#"><img src="img/youtube.png" style="width:20px;height:20px"</a>
+	<br>  <a href="#"><img src="img/facebook.png"style="width:20px;height:20px"</a>
+	<br>  <a href="#"><img src="img/twitter.png" style="width:20px;height:20px"</a>
+	<br>  <a href="#"><img src="img/paintered.png" style="width:20px;height:20px"</a>
+	<br>  <a href="#"><img src="img/Instagram.png"style="width:20px;height:20px"</a>
+  </ul>
+  </div>
+  <div class="col m3 responsive-img">
+      <img src="img/Desert.jpg" style = "width:200px;height:200px" class="z-depth-5">
+	  <img src="img/torres_paine.jpg" style = "width:200px;height:200px" class="z-depth-5">
+	  </div>
+      <div class="col m5 responsive-img">  
+	  <img src="img/saltos.jpg" style = "width:100%;height:400px" class="z-depth-5"> 
+	  </div>
+	  <div class="col m3 responsive-img">
+	  <img src="img/Lighthouse.jpg" class="margenes_imagen z-depth-5" style = "width:200px;height:150px" >
+	  <img src="img/Pinguinos.jpg" class="margenes_imagen z-depth-5" style = "width:200px;height:250px" >    	  
+      </div>
+   </div>
+   
+   <div class="row">
+        <div class="col s12">
+          <div class="row">
+            <div class="col l9 m9 s12">
+              <div class="row">
+                <div class="col s12 white z-depth-5" id="articulo">
+                  <div>
+                    <img src="img/imagenes2.jpg" alt="Imagen" class="responsive-img z-depth-5"
+					style = "widht:300px;height:300px;">
+                  
+				  </div>
+                  <h4>El Koala</h4>
+                  <div class="chip">
+                    30 de april de 2018
+                    <i class="close material-icons">today</i>
+                  </div>
+                  <div class="chip">
+                    San Miguel, Santiago, Chile
+                    <i class="close material-icons">location_on</i>
+                  </div>
+				  <p>La energía mayormente gastada por los koalas es en el paso de un árbol a otro que le haya sido designado como su territorio, esto puede ser en cualquier momento de 24 horas.
+Estos animales son muy semejantes a los perezosos de América del Sur en el modo de vida, el oso koala tiene un metabolismo lentísimo y puede durar días para digerir una comida.
+</p>
+<p>
+El koala tiene una cara ancha, ojos grandes y una cabeza grande con orejas pilosas redondas, tiene el cuerpo sin cola en forma de huevo y la piel está cubierta de felpa gris a 
+cobrizo y es más blanca en el dorso y con cierta frecuencia jaspeada sobre la cadera.
+				  </p>
+				  </div>
+              </div>
+              <div class="row">
+                <div class="col s12 white-text blue lighten-1 z-depth-5" id="form-comentario">
+                  <h5>Deja tu comentario</h5>
+                  <form>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">perm_identity</i>
+                      <input type="text" name="nombre" class="validate" id="nombre">
+                      <label for="nombre" class="white-text">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">email</i>
+                      <input type="email" name="correo" class="validate" id="email">
+                      <label for="email" class="white-text "data-success="Correcto" data-error="Debes completar este campo">Correo electronico</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">chat_bubble_outline</i>
+                      <textarea name="comentario" rows="8" class="materialize-textarea" id="comentario"></textarea>
+                      <label for="comentario" class="white-text">Comentario</label>
+                      <input type="submit" name="enviar" value="Enviar" class="btn btn-small white waves-effect blue-text">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col l3 m3 s12">
+              <div class="row">
+                <div class="col s12 white z-depth-5" id="perfil">
+                  <div class="section">
+                    <div>
+                      <img src="img/mi_foto.jpg" alt="Imagen" 
+					  style = "width:200px;height:200px" 
+					  class="circle center-right responsive-img z-depth-5">
+                    </div>
+                    <h4>Perfil del autor</h4>
+                    <div class="divider"></div>
+					<p>José Manuel Calderón Améstica Licenciado en Matemáticas de la Pontificia Universidad Catolica de Chile
+					Alumno de Next University</p>
+                  </div>
+                </div>
+              </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+	</body>
+  </html>
